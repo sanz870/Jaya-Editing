@@ -1,0 +1,20 @@
+.hero {
+    background: linear-gradient(90deg, #f7c600 60%, #fff 40%);
+    padding: 60px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.hero-text {
+    max-width: 450px; /* Dikurangi dari 600px */
+    flex: 1 1 300px;
+    padding-right: 20px; /* Tambahkan padding agar tidak terlalu mepet */
+}
+
+.hero img {
+    width: 380px; /* Pastikan gambar tetap proporsional */
+    max-width: 100%;
+    border-radius: 12px;
+}
